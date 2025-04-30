@@ -1,4 +1,4 @@
-# Android Device Tree for Samsung SM-A146P (a14xm)
+# Android Device Tree for Samsung Galaxy A13 5G (A136m)
 
 ```
 #
