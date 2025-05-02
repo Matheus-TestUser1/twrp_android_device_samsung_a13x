@@ -5,7 +5,17 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/samsung/a13x
+# Platform
+DEVICE_CODENAME := a13x
+BOARD_VENDOR := samsung
+DEVICE_PATH := device/samsung/$(DEVICE_CODENAME)
+TARGET_BOARD_PLATFORM := mt6833
+TARGET_SOC := mt6833
+TARGET_BOARD_PLATFORM_GPU := mali-g57
+TARGET_BOOTLOADER_BOARD_NAME := a13x
+TARGET_NO_BOOTLOADER := true
+TARGET_NO_RADIOIMAGE := true
+TARGET_USES_UEFI := false
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
@@ -25,6 +35,11 @@ ENABLE_SCHEDBOOST := true
 # APEX
 DEXPREOPT_GENERATE_APEX_IMAGE := true
 
+# Display
+TARGET_SCREEN_DENSITY := 300
+TARGET_SCREEN_WIDTH := 720
+TARGET_SCREEN_HEIGHT := 1600
+
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := a13x
 TARGET_NO_BOOTLOADER := true
@@ -32,8 +47,6 @@ TARGET_NO_BOOTLOADER := true
 # Platform (SoC)
 TARGET_BOARD_PLATFORM := mt6833
 
-# Display (conforme build.prop)
-TARGET_SCREEN_DENSITY := 300
 
 # Brilho (painéis Samsung costumam usar 0–2047)
 TW_DEFAULT_BRIGHTNESS := 512
