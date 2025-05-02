@@ -9,6 +9,6 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/twrp_a13x.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_a13x-user \
-    omni_a13x-userdebug \
-    omni_a13x-eng
+    twrp_a13x-user \
+    twrp_a13x-userdebug \
+    twrp_a13x-eng
