@@ -12,7 +12,7 @@
 
 ## Overview
 
-The Samsung Galaxy A14 5G is an entry level device released by Samsung in early 2023 featuring MediaTek's Dimensity 700 chipset
+The Samsung Galaxy A13 5G is an entry level device released by Samsung in early 2023 featuring MediaTek's Dimensity 700 chipset
 
 ## Specifications
 
@@ -21,7 +21,7 @@ The Samsung Galaxy A14 5G is an entry level device released by Samsung in early 
 - **Processor**: MediaTek Dimensity 700 (7 nm)
 - **RAM**: 4GB LPDDRX4 
 - **Storage**: Internal storage options range from 64GB to 128GB, expandable storage. (UFS 2.2)
-- **Display**: 6.6-inch PLS LCD with a resolution of 1080 x 2408 pixels and a 90Hz refresh rate.
+- **Display**: 6.6-inch PLS LCD with a resolution of 700 x 1600 pixels and a 90Hz refresh rate.
 - **Battery**: 5000mAh
 - **Camera**:
   - Triple rear camera setup: 50MP wide, 2MP macro, and 2MP depth sensor.
