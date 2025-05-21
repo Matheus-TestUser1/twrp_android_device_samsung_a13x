@@ -24,7 +24,7 @@ ALLOW_MISSING_DEPENDENCIES := true
 TARGET_ARCH := arm
 TARGET_ARCH_VARIANT := armv8-a
 TARGET_CPU_ABI := armeabi-v7a
-TARGET_CPU_VARIANT := cortex-a55
+TARGET_CPU_VARIANT := cortex-a76
 TARGET_CPU_VARIANT_RUNTIME := cortex-a55
 
 # Multi-core & Scheduling (compatível Dimensity 700)
