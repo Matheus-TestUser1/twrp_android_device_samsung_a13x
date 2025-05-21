@@ -49,8 +49,8 @@ TARGET_BOARD_PLATFORM := mt6833
 
 
 # Brilho (painéis Samsung costumam usar 0–2047)
-TW_DEFAULT_BRIGHTNESS := 512
-TW_MAX_BRIGHTNESS := 2047
+TW_DEFAULT_BRIGHTNESS := 200
+TW_MAX_BRIGHTNESS := 305
 TW_BRIGHTNESS_PATH := "/sys/class/backlight/panel/brightness"
 
 # Kernel (dados do seu boardconfig + práticas comuns Samsung MTK)
