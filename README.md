@@ -42,7 +42,7 @@ Make sure you have the necessary build environment set up
    ```bash
    source build/envsetup.sh  # Source the build environment setup script
    export ALLOW_MISSING_DEPENDENCIES=true  # Necessary step, allows building with missing dependencies and minimal manifest
-   lunch twrp_a14xm-eng  # Choose the appropriate device/variant for your A14XM
+   lunch twrp_a13x-eng  # Choose the appropriate device/variant for your A14XM
    ```
 
 2. **Build Recovery Image:**
